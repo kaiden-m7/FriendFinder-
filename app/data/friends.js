@@ -33,8 +33,8 @@ let friends = [
     }
 
     {
-        name: '',
-        photo: '',
+        name: 'Tina Fey',
+        photo: 'https://media1.s-nbcnews.com/j/newscms/2017_33/2124466/170818-tina-fey-mn-0810_0064edfdad82f2a40ba5d6c2048fa6b9.fit-760w.jpg',
         score: [
 
         ]
