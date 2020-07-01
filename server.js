@@ -17,7 +17,7 @@ app.use(bodyParser.text());
 
 //adding the routes to html and api pages 
 require(path.join(__dirname, './app/routing/apiRoutes'));
-require(path.join(__dirname, '/app/routing/htmlRoutes'));
+require(path.join(__dirname, './app/routing/htmlRoutes'));
 
 //listening on port
 app.listen(PORT, function () {
