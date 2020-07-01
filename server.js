@@ -6,7 +6,7 @@ let bodyParser = require('body-parser');
 
 //creating app port 
 let app = express();
-let PORT = 8080;
+let PORT = 8080
 
 //using app to show public file on html 
 app.use(express.static(path.join(__dirname, './app/public')));
