@@ -1,10 +1,14 @@
 body {
     width: 75%;
-   margin: 0px auto; 
+   margin: 30px auto; 
 
    display: flex;
    min-height: 100vh;
    flex-direction: column;
+}
+
+header {
+    height: 100px;
 }
 
 main {
@@ -13,10 +17,12 @@ main {
 
 main h1 {
     font-weight: bold;
+    padding: 10px;
 }
 
  main h2 {
-    font-weight: 300;
+    font-size: x-large;
+    font-weight: 100;
 }
 
 .mainpanel{
@@ -30,3 +36,18 @@ main h1 {
 .container {
     background: rgb(158, 148, 148);
 }
+
+.mainpanel{
+	margin: 50px;
+}
+
+ #mainpanel-content {
+ 	margin: 50px;
+ }
+
+ .page-footer {
+    background: rgb(158, 148, 148);
+    width: 708px;
+    margin-left: 150px;
+
+ }
