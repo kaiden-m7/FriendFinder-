@@ -2,17 +2,17 @@ let path = require('path');
 let friends = require('../data/friends');
 
 module.exports = function (app) {
-    app.get('/api/friends', function(req, res) {
+    app.get('/app/data/friends.js', function(req, res) {
         res.Json(friends);
     });
 
-    app.post('/api/friends', function(req, res) {
+    app.post('/app/data/friends.js', function(req, res) {
         let userInput = req.body;
         let userResponses = userInput.scores;
 
-        let matchName = '',
-        let matchImage = '',
-        let totalDifference = 10000; 
+        var matchName = '',
+        var matchImage = '',
+        var totalDifference = 10000; 
 
         for (let i = 0; i < friends.length; i++) {
             let diff = 0;
