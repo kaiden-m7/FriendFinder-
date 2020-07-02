@@ -23,7 +23,7 @@ This application is running on `PORT 8080` locally. to ensure your port is open 
 
 ## Deployed Link
 -----
-To find your perfect friend match, try out the survery deployed with *Heroku*. Check it out [here.]()
+To find your perfect friend match, try out the survery deployed with *Heroku*. Check it out [here.](https://git.heroku.com/bloc-moose-89898.git)
 
 ## Author
 -------
